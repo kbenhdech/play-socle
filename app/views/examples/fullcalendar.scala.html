@@ -1,0 +1,9 @@
+@()
+
+@javascripts = {
+  @Html(org.webjars.play.RequireJS.setup("javascripts/examples/fullcalendar-examples"))
+}
+
+@main("Bienvenue dans l'application play-school", javascripts) {
+	<div id="fullcalendar" ></div>
+}
