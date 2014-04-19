@@ -1,0 +1,9 @@
+@()
+
+@javascripts = {
+  @Html(org.webjars.play.RequireJS.setup("javascripts/examples/bootstrap-datetimepicker-examples"))
+}
+
+@main("Bienvenue dans l'application play-socle", javascripts) {
+	<input type="text" id="datetimePicker" />
+}

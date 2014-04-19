@@ -3,13 +3,14 @@
 # ~~~~
 
 # Home page
-GET     /                               controllers.Application.index()
+GET     /                                           controllers.Application.index()
 
 # Examples
-GET     /examples/fullcalendar          controllers.Application.fullcalendarExample()
+GET     /examples/fullcalendar                      controllers.Application.fullcalendarExample()
+GET     /examples/bootstrap-datetimepicker          controllers.Application.bootstrapDatetimepickerExample()
 
 # Enable webjar based resources to be returned
-GET     /webjars/*file                  controllers.WebJarAssets.at(file)
+GET     /webjars/*file                              controllers.WebJarAssets.at(file)
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file                   controllers.Assets.at(path="/public", file)
+GET     /assets/*file                               controllers.Assets.at(path="/public", file)

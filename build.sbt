@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "org.webjars" % "jquery" % "2.1.0-2",
   "org.webjars" % "require-css" % "0.1.2",
   "org.webjars" % "bootstrap" % "3.1.0",
-  "org.webjars" % "fullcalendar" % "1.6.4"
+  "org.webjars" % "fullcalendar" % "1.6.4",
+  "org.webjars" % "bootstrap-datetimepicker" % "2.2.0"
 )
 
 play.Project.playJavaSettings
